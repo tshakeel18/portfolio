@@ -55,9 +55,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS"
-    )
+    emoji("⚡ Integration of third party services such as Firebase/ AWS")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -134,12 +132,12 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bachelor of Science in Computer Software Engineering",
       duration: "September 2008 - June 2012",
-      desc: "Worked on various projects related to Software Development, Web Development, Mobile Application Development, Database Design and Development.",
+      desc: "Worked on various projects related to Software Development, Web Development, Mobile Application Development, Database Design and Development."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
-    },
+    }
     // {
     //   schoolName: "Stanford University",
     //   logo: require("./assets/images/stanfordLogo.png"),
@@ -343,33 +341,33 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji(
-//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-//   ),
-// 
-//   talks: [
-//     {
-//       title: "Build Actions For Google Assistant",
-//       subtitle: "Codelab at GDG DevFest Karachi 2019",
-//       slides_url: "https://bit.ly/saadpasta-slides",
-//       event_url: "https://www.facebook.com/events/2339906106275053/"
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
+  //   title: "TALKS",
+  //   subtitle: emoji(
+  //     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  //   ),
+  //
+  //   talks: [
+  //     {
+  //       title: "Build Actions For Google Assistant",
+  //       subtitle: "Codelab at GDG DevFest Karachi 2019",
+  //       slides_url: "https://bit.ly/saadpasta-slides",
+  //       event_url: "https://www.facebook.com/events/2339906106275053/"
+  //     }
+  //   ],
+  //   display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-// 
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: [
-//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-//   ],
-//   display: true // Set false to hide this section, defaults to true
+  //   title: emoji("Podcast 🎙️"),
+  //   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  //
+  //   // Please Provide with Your Podcast embeded Link
+  //   podcast: [
+  //     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  //   ],
+  //   display: true // Set false to hide this section, defaults to true
 };
 
 // Resume Section
