@@ -196,18 +196,45 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Software Architect",
+      company: "Trilogy",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2019 – June 2022",
+      desc: "Designed scalable app architectures and reusable frameworks at Trilogy, aligning dev efforts with business goals in a fast-paced Agile environment.",
+      descBullets: [
+        `Authored development guidelines to expedite application design efforts through ready-made frameworks. Customized in-development software to client's current hardware environments, designing applications to span multiple systems.`,
+        `Developed application architecture strategy to specifically align with employer business goals. Designed architecture strategies for large-scale system wide application deployments.`,
+        `Employed integrated development environments (IDEs). Leveraged Agile methodologies to move development lifecycle rapidly through initial prototyping to enterprise-quality testing and final implementation.`,
+        `Established clear system performance standards and wrote specifications. Conferred with project managers and other stakeholders to fully understand software design specifications and plan optimal development approaches.`
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Front End Architect And Team Lead",
+      company: "Aurea Software",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "March 2016 – Dec 2018",
+      desc: "Developed scalable enterprise apps using C#, .NET, Java Spring Boot, Node.js, React.js, Angular, Next.js, and Python. Collaborated across teams in Agile workflows to deliver secure, high-performance solutions. Improved UI/UX, led documentation including BIM models, and ensured quality releases through testing, debugging, and cross-platform optimization.",
+      descBullets: [
+        "Collaborated with stakeholders to align creative proposals and UI/UX design practices with business and functional requirements.",
+
+        "Followed Agile SDLC best practices to rapidly deliver client iterations, ensuring scalability, performance, and maintainability.",
+
+        "Designed and developed robust, scalable solutions using C#, .NET, Python, Angular, HTML, CSS, and JavaScript.",
+
+        "Led front-end team, mentoring junior developers and conducting code reviews to ensure adherence to best practices and coding standards.",
+
+        "Reviewed specifications and delivered technology solutions that exceeded client expectations for usability, performance, and compliance.",
+
+        "Improved user experience and interface design, enhancing customer satisfaction and engagement.",
+
+        "Conducted thorough testing and debugging to ensure high-quality releases, collaborating with QA teams to resolve issues promptly.",
+
+        "Created documentation strategies, including final BIM models and as-built designs, supporting development, QA, and client handover.",
+
+        "Managed and improved site aesthetics, navigation, and experiential content for product launches, redesigns, and promotions.",
+
+        "Ensured application security and performance through firewalls, encryption, testing, and cross-browser optimization."
+      ]
     }
   ]
 };
