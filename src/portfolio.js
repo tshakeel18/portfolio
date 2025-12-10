@@ -198,7 +198,7 @@ const workExperiences = {
     {
       role: "Software Architect",
       company: "Trilogy",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/trilogy.png"),
       date: "Jan 2019 – June 2022",
       desc: "Designed scalable app architectures and reusable frameworks at Trilogy, aligning dev efforts with business goals in a fast-paced Agile environment.",
       descBullets: [
@@ -211,7 +211,7 @@ const workExperiences = {
     {
       role: "Front End Architect And Team Lead",
       company: "Aurea Software",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/aurea.png"),
       date: "March 2016 – Dec 2018",
       desc: "Developed scalable enterprise apps using C#, .NET, Java Spring Boot, Node.js, React.js, Angular, Next.js, and Python. Collaborated across teams in Agile workflows to deliver secure, high-performance solutions. Improved UI/UX, led documentation including BIM models, and ensured quality releases through testing, debugging, and cross-platform optimization.",
       descBullets: [
@@ -235,7 +235,48 @@ const workExperiences = {
 
         "Ensured application security and performance through firewalls, encryption, testing, and cross-browser optimization."
       ]
+    },
+    {
+      role: "Sr. Front-End Engineer",
+      company: "Aurea Software (CrossOver)",
+      companylogo: require("./assets/images/aurea.png"),
+      date: "Jul 2017 – Apr 2018",
+      desc: "Improved UI performance, regulatory compliance, navigation, security, and end-user experience across enterprise systems.",
+      descBullets: [
+        "Enhanced user interaction & design flexibility.",
+
+        "Improved site navigation & aesthetics.",
+
+        "Set up firewalls, encryption & performance improvements.",
+
+        "Managed experiential UI for launches & redesigns."
+      ]
     }
+    // {
+    //         role: "Sr. Software Engineer",
+    //         company: "Aurea Software (CrossOver)",
+    //         companylogo: require("./assets/images/aurea.png"),
+    //         date: "Jan 2017 – Jun 2017",
+    //         desc: "Designed scalable Angular + Spring Boot modules, resolved technical issues, and optimized system performance across enterprise applications.",
+    //         descBullets: [
+    //         "Resolved high‑priority technical issues.",
+    //
+    //         "Designed scalable modules meeting performance needs.",
+    //
+    //         "Developed innovative systems with Angular & Spring Boot.",
+    //
+    //         "Helped engineers find/fix software bugs."
+    //         ]
+    //       }, {
+    //         role: "Sr. Front-End Developer",
+    //         company: "Aurea Software (CrossOver)",
+    //         companylogo: require("./assets/images/aurea.png"),
+    //         date: "Mar 2016 – Dec 2016",
+    //         desc: "Enhanced UI compliance, performance, navigation, and code quality while conducting UX testing and producing interactive prototypes.",
+    //         descBullets: [
+    //         "Improved UI compliance and navigation.",
+    //         ]
+    //       }
   ]
 };
 
@@ -251,33 +292,38 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SIGNIFICANT SYSTEMS & PRODUCTS CONTRIBUTED ACROSS MY CAREER",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: require("./assets/images/clew.png"),
+      projectName: "ClewMed Intelligent Clinical Platform",
+      projectDesc:
+        "Architected scalable and modular Angular-based healthcare UI, built reusable clinical components, optimized performance, and contributed to AI-driven predictive workflow enhancements.",
+      footerLink: []
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/trilogy.png"),
+      projectName: "Trilogy Enterprise Architecture Framework",
+      projectDesc:
+        "Designed full-stack architectures, reusable React/Next.js scaffolding, GraphQL integration, SSR optimization, and CI/CD automation for multiple enterprise products.",
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/aurea.png"),
+      projectName: "Aurea Digital Twin & BIM Workflow Platform",
+      projectDesc:
+        "Led front-end architecture, built scalable UI systems using React/Angular, improved performance, developed BIM model workflows, validated digital handover data, and managed complex enterprise UX upgrades.",
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/crossover.png"),
+      projectName: "CrossOver Front-End Optimization & A/B Testing Suite",
+      projectDesc:
+        "Built dynamic Angular/React interfaces, automation scripts, A/B testing pipelines, personalization modules, and UI performance enhancements across multiple high-traffic SaaS products.",
+      footerLink: []
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
@@ -338,7 +384,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
