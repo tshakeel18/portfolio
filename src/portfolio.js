@@ -195,7 +195,6 @@ const workExperiences = {
         `Mentored team, sharing skills and expertise and encouraged each member to bring
         forward ideas and suggestions for improvement.`,
         `Ensured application security, performance, and compliance by following healthcare standards, optimizing runtime efficiency, and implementing best practices for data handling.`
-
       ]
     },
     {
@@ -209,7 +208,7 @@ const workExperiences = {
         `Authored development guidelines to expedite application design efforts through ready-made frameworks. Customized in-development software to client's current hardware environments, designing applications to span multiple systems.`,
         `Developed application architecture strategy to specifically align with employer business goals. Designed architecture strategies for large-scale system wide application deployments.`,
         `Employed integrated development environments (IDEs). Leveraged Agile methodologies to move development lifecycle rapidly through initial prototyping to enterprise-quality testing and final implementation.`,
-        `Established clear system performance standards and wrote specifications. Conferred with project managers and other stakeholders to fully understand software design specifications and plan optimal development approaches.`,
+        `Established clear system performance standards and wrote specifications. Conferred with project managers and other stakeholders to fully understand software design specifications and plan optimal development approaches.`
       ]
     },
     {
@@ -228,9 +227,7 @@ const workExperiences = {
 
         "Led front-end team, mentoring junior developers and conducting code reviews to ensure adherence to best practices and coding standards.",
 
-        "Reviewed specifications and delivered technology solutions that exceeded client expectations for usability, performance, and compliance.",
-
-
+        "Reviewed specifications and delivered technology solutions that exceeded client expectations for usability, performance, and compliance."
       ]
     },
     {
@@ -249,10 +246,9 @@ const workExperiences = {
 
         "Managed experiential UI for product launches and redesigns by collaborating with stakeholders to deliver engaging and user-focused interfaces.",
 
-       
         "Collaborated with cross-functional teams including developers, designers, and stakeholders to translate business requirements into high-quality user experiences.",
-        
-        "Addressing employee or production issues directly and promptly reduced resource and time losses. Tracked inventory, employee hours, and receipts.",
+
+        "Addressing employee or production issues directly and promptly reduced resource and time losses. Tracked inventory, employee hours, and receipts."
       ]
     },
     {
@@ -353,7 +349,7 @@ const bigProjects = {
       image: require("./assets/images/sustainabilityyard.webp"),
       projectName: "Sustainability Yard Platform",
       projectDesc:
-      "Created a sustainability-focused platform using Flutter for mobile experiences and .NET Core for backend services, leveraging AWS CLI to automate deployments and maintain scalable cloud infrastructure.",
+        "Created a sustainability-focused platform using Flutter for mobile experiences and .NET Core for backend services, leveraging AWS CLI to automate deployments and maintain scalable cloud infrastructure.",
       footerLink: []
     },
 
@@ -361,7 +357,7 @@ const bigProjects = {
       image: require("./assets/images/zoovu.jfif"),
       projectName: "Zoovu Product Experience Platform",
       projectDesc:
-      "Developed modular React and Vue components with state management and optimized rendering, backed by a Node.js service layer providing REST/GraphQL APIs, data handling, and integration workflows.",
+        "Developed modular React and Vue components with state management and optimized rendering, backed by a Node.js service layer providing REST/GraphQL APIs, data handling, and integration workflows.",
       footerLink: []
     },
 
@@ -387,12 +383,6 @@ const bigProjects = {
         "Designed and built a reusable Angular 15 component library leveraging D3.js for advanced data visualizations. Implemented modular, customizable charts with strong performance, clean APIs, and seamless integration across enterprise Angular applications.",
       footerLink: []
     }
-    
-    
-    
-    
-    
-    
   ],
   display: true
 };
@@ -482,13 +472,14 @@ const achievementSection = {
         }
       ]
     },
-    
+
     {
       title: "Developing AI Applications with Python and Flask",
       subtitle:
         "Completed an IBM-authorized Coursera course on building AI-powered web applications using Python and Flask, covering model integration, API development, and deployment of AI solutions.",
       image: require("./assets/images/ibm-coursera-ai-flask.jpg"),
-      imageAlt: "IBM Coursera AI Applications with Python and Flask Certificate",
+      imageAlt:
+        "IBM Coursera AI Applications with Python and Flask Certificate",
       footerLink: [
         {
           name: "View Certificate",
@@ -535,7 +526,7 @@ const achievementSection = {
         }
       ]
     },
-    
+
     {
       title: "Generative AI: Prompt Engineering Basics",
       subtitle:
@@ -554,17 +545,17 @@ const achievementSection = {
       subtitle:
         "Completed an IBM-authorized Coursera course focused on Python programming for data science and AI applications, covering Python fundamentals, data analysis, visualization, and development of AI-driven solutions.",
       image: require("./assets/images/ibm-coursera-python.jpg"),
-      imageAlt: "IBM Coursera Python for Data Science, AI & Development Certificate",
+      imageAlt:
+        "IBM Coursera Python for Data Science, AI & Development Certificate",
       footerLink: [
         {
           name: "View Certificate",
           url: "https://cour sera.org/ver ify/7SS7RTFZ56RH"
         }
       ]
-    },
-
+    }
   ],
-  display: true 
+  display: true
 };
 
 // Blogs Section
