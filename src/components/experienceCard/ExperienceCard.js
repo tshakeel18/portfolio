@@ -1,21 +1,31 @@
-import React, {useState, createRef} from "react";
-import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
+import React, {useRef, useState} from "react";
+import "./ExperienceCard.scss";
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
-  const imgRef = createRef();
+  const imgRef = useRef(null);
 
   function getColorArrays() {
     const colorThief = new ColorThief();
-    setColorArrays(colorThief.getColor(imgRef.current));
+    if (imgRef.current) {
+      try {
+        const colors = colorThief.getColor(imgRef.current);
+        console.log(colors);
+        setColorArrays(colors);
+      } catch (error) {
+        console.error("Error extracting color:", error);
+      }
+    }
   }
 
   function rgb(values) {
-    return typeof values === "undefined"
+    return typeof values === "undefined" || !values || values.length === 0
       ? null
       : "rgb(" + values.join(", ") + ")";
   }
+
+  const bannerColor = rgb(colorArrays) || cardInfo.color || "#000000";
 
   const GetDescBullets = ({descBullets, isDark}) => {
     return descBullets
@@ -32,7 +42,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
 
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
-      <div style={{background: rgb(colorArrays)}} className="experience-banner">
+      <div  className="experience-banner">
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
@@ -44,6 +54,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
           className="experience-roundedimg"
           src={cardInfo.companylogo}
           alt={cardInfo.company}
+          style={{backgroundColor: cardInfo.color || "transparent"}}
           onLoad={() => getColorArrays()}
         />
       </div>
